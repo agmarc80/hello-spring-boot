@@ -6,3 +6,14 @@ management:
       exposure:
         include: '*'
       base-path: /actuator
+
+info:
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
+
+endpoints:
+    health:
+        sensitive: false
