@@ -1,9 +1,0 @@
----
-applications:
-- name: hello-spring
-  memory: 1G
-  instances: 1
-  path: target/hello-spring-boot-0.0.1-SNAPSHOT.jar  
-  random-route: true
-  env:
-    GREETING: Hello from DAS
